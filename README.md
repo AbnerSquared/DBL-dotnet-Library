@@ -23,7 +23,7 @@ Likewise, you can also search for users by specifying their Discord ID.
 IDblUser bot = await dblApi.GetUserAsync(121919449996460033);
 ```
 
-### Authorized Usage
+## Authorized Usage
 If you have an API key from top.gg, you may initialize an authenticated API client instead.
 
 ### Setting up the API client
@@ -80,10 +80,10 @@ The following code snippet will generate a large widget URL that looks like this
 ### Installing
 
 #### Visual Studio
-You can install this library for a solution or project by right-clicking the main solution, and pressing `Manage NuGet packages...`. In here, you can now search for `DiscordBotsList.Api`, and press the first available entry to install.
+You can install this library for a solution or project by right-clicking the main solution, and selecting `Manage NuGet packages...`. In here, you can now search for `DiscordBotsList.Api`, and press the first available entry to install.
 
 #### NuGet
-You can install this package from NuGet [here](https://www.nuget.org/packages/DiscordBotsList.Api)! Likewise, if you wish to install this by console, you can simply type
+You can install this package from NuGet [here](https://www.nuget.org/packages/DiscordBotsList.Api)! Likewise, if you wish to install this by console, you can simply type:
 ```
 > Install-Package DiscordBotsList.Api
 ```
